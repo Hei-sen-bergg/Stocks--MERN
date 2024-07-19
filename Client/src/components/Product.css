@@ -1,0 +1,9 @@
+.fixed-card img {
+    object-fit: cover; 
+    height: 250px; 
+    width: 100%; 
+  }
+
+  .greyscale {
+    filter: grayscale(100%);
+  }

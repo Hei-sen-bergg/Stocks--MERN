@@ -1,0 +1,15 @@
+/* .fixed-card {
+    width: 100%;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  */
+  
+  .fixed-card img {
+    object-fit: cover; 
+    height: 250px; 
+    width: 100%; 
+  }
+   
