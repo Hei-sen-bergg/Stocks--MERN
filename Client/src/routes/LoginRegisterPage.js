@@ -10,8 +10,9 @@ const LoginRegisterPage = () => {
   };
 
   return (
+    <>
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-    <div className='text-center'  style={{backgroundColor: '#F1FAFF',margin: 0, padding: 0, height: '80vh', width: '30vw', borderRadius:'20px'}}>
+    <div className='text-center'  style={{margin: 0, padding: 0, height: '80vh', width: '80%', borderRadius:'20px'}}>
       <h3 className='text-center' style={{ fontWeight: '900', marginBlock:'20px',padding:0}}>Welcome to Upstocks</h3>
       {isLogin ? <Login /> : <Register />}
       <a href="#" onClick={handleToggle} className='mt-5 fw-bold'>
@@ -19,6 +20,7 @@ const LoginRegisterPage = () => {
       </a>
     </div>
     </div>
+    </>
   );      
 };
 
